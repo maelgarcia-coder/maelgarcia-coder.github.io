@@ -5,33 +5,22 @@
     <title>Encuesta de preferencias</title>
 </head>
 <body>
-
-<h1>Encuesta de preferencias de desarrollo</h1>
-
 <form action="https://lm.ciclo.iesnervion.es/encuesta.php" method="POST">
-
     <fieldset>
         <legend>Datos Académicos</legend>
-
         <label for="nombre">Nombre y Apellidos:</label>
         <input type="text" id="nombre" name="nombre" required>
-
-        <br><br>
-
+        <br>
         <label for="ciclo">Ciclo Formativo:</label>
         <select id="ciclo" name="ciclo">
             <option value="DAM" selected>DAM</option>
             <option value="DAW">DAW</option>
             <option value="ASIR">ASIR</option>
         </select>
-
     </fieldset>
-
     <fieldset>
         <legend>Preferencias Técnicas</legend>
-
         <p>Lenguaje principal:</p>
-
         <input type="radio" id="java" name="lenguaje" value="Java">
         <label for="java">Java</label>
         <input type="radio" id="python" name="lenguaje" value="Python">
