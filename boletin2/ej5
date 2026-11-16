@@ -1,37 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de prueba de HTML5</title>
 </head>
 <body>
+
     <form action="https://lm.ciclo.insernion.es/registroweb.php" method="GET">
+
+        <label>Nombre:</label>
         <input type="text" name="nombre" required autofocus>
         <br><br>
+
+        <label>Email:</label>
         <input type="email" name="email" required>
         <br><br>
-        <input type="url" name="url" placeholder="Escribe la URL de tu página web">
+
+        <label>URL:</label>
+        <input type="url" name="url" placeholder="Escribe la URL de tu página web personal">
         <br><br>
-        Fecha:
+
+        <label>Fecha:</label>
         <input type="date" name="fecha">
         <br><br>
+
+        <label>Tiempo:</label>
         <input type="time" name="tiempo">
         <br><br>
+
+        <label>Fecha y hora:</label>
         <input type="datetime-local" name="fechahora">
         <br><br>
+
+        <label>Mes:</label>
         <input type="month" name="mes">
         <br><br>
+
+        <label>Semana:</label>
         <input type="week" name="semana">
         <br><br>
+
+        <label>Número:</label>
         <input type="number" name="numero" min="-10" max="10">
         <br><br>
+
+        <label>Teléfono:</label>
         <input type="tel" name="telefono">
         <br><br>
-        Término de búsqueda:
+
+        <label>Término de búsqueda:</label>
         <input type="search" name="busqueda">
         <br><br>
+
+        <label>Color favorito:</label>
         <input type="color" name="color">
         <br><br>
+
         <input type="submit" value="Enviar">
+
     </form>
+
 </body>
 </html>
